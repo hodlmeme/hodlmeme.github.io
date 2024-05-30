@@ -1,7 +1,0 @@
-<blockquote class="twitter-tweet"><p lang="zh" dir="ltr">到底这三是啥<a href="https://twitter.com/hodlstrong_?ref_src=twsrc%5Etfw">@hodlstrong_</a> <a href="https://twitter.com/Zooofmeme?ref_src=twsrc%5Etfw">@Zooofmeme</a> 还有即将到来的 zoo of meme 第一个launchpad <a href="https://twitter.com/inAtlantis_?ref_src=twsrc%5Etfw">@inAtlantis_</a> <br><br>关于 <a href="https://twitter.com/inAtlantis_?ref_src=twsrc%5Etfw">@inAtlantis_</a> <a href="https://twitter.com/hodlstrong_?ref_src=twsrc%5Etfw">@hodlstrong_</a> 等会介绍。这两个史诗级的memecoin。值得单独的文章<br><br>但在此前，我带着诚意而来<br><br>向大家介绍 <a href="https://twitter.com/Zooofmeme?ref_src=twsrc%5Etfw">@Zooofmeme</a> <br><br>一： <br><br>故事的起源- ZOO OF MEME… <a href="https://t.co/ZGClPdRXUc">pic.twitter.com/ZGClPdRXUc</a></p>&mdash; 王大有 (@youyou5202) <a href="https://twitter.com/youyou5202/status/1794009097416933759?ref_src=twsrc%5Etfw">May 24, 2024</a></blockquote>
-
-<blockquote class="twitter-tweet">
-	<p lang="zh" dir="ltr">顺便一提：<br><br>luanchpad的积分玩法。是冻结积分+launchpad投入积分后将HODL转入指定地址锁定然后返还（2个点磨损+时间成本）<br><br>以及每条链上的新币<br>LP组的都是HODL<br>比如东风<br><br>东风的LP是 东风-HODL<br><br>LINEA上的是 LINEA上的加HODL<br><br>登峰造极的艺术要开始加速了<br><br>坐稳扶好<br><br>最强大的跨链meme之王…</p>&mdash; 王大有 (@youyou5202) <a href="https://twitter.com/youyou5202/status/1791605922424406456?ref_src=twsrc%5Etfw">May 17, 2024</a>
-</blockquote>
-
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
