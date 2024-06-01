@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Project · HODL DOCS</title>
+        <title>Project Events · HODL DOCS</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -26,10 +26,6 @@
             
                 
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
                 
             
                 
@@ -68,7 +64,7 @@
     <link rel="next" href="dayou.html" />
     
     
-    <link rel="prev" href="new_comer.html" />
+    <link rel="prev" href="link_tree.html" />
     
 
     </head>
@@ -123,12 +119,12 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3" data-path="intro.html">
+        <li class="chapter " data-level="1.3" data-path="link_tree.html">
             
-                <a href="intro.html">
+                <a href="link_tree.html">
             
                     
-                    Project
+                    LinkTree
             
                 </a>
             
@@ -136,7 +132,20 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="dayou.html">
+        <li class="chapter active" data-level="1.4" data-path="event.html">
+            
+                <a href="event.html">
+            
+                    
+                    Project Events
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="dayou.html">
             
                 <a href="dayou.html">
             
@@ -146,38 +155,6 @@
                 </a>
             
 
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.4.1" data-path="dayou.html">
-            
-                <a href="dayou.html">
-            
-                    
-                    Introduce
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4.2" data-path="twitter.html">
-            
-                <a href="twitter.html">
-            
-                    
-                    Important Twitter
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
             
         </li>
     
@@ -646,7 +623,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Project</a>
+        <a href="." >Project Events</a>
     </h1>
 </div>
 
@@ -659,67 +636,294 @@
 <div id="book-search-results">
     <div class="search-noresults">
     
-<div id="book-search-results">
-    <div class="search-noresults">
-    
                                 <section class="normal markdown-section">
                                 
-                                <table>
-  <tr>
-      <td colspan="2" style="text-align:center; font-size:32px;">HODL</td>
-  </tr>
-  <tr>
-      <td>Official website</td>
-      <td><a href="https://hodlmeme.io/" target="_blank">https://hodlmeme.io/</a></td>
-  </tr>
-  <tr>
-      <td>X(Twitter)</td>
-      <td><a href="https://twitter.com/hodlstrong_" target="_blank">@hodlstrong_</a></td>
-  </tr>
-  <tr>
-    <td>Discord</td>
-    <td><a href="https://discord.gg/hodlstrongs" target="_blank">https://discord.gg/hodlstrongs</a></td>
-  </tr>
-  <tr>
-    <td>Chinese Telegraph</td>
-    <td><a href="https://t.me/hodlstrongs" target="_blank">https://t.me/hodlstrongs</a></td>
-  </tr>
-  <tr>
-    <td>English Telegraph</td>
-    <td><a href="https://t.me/hodlstrongs_en" target="_blank">https://t.me/hodlstrongs_en</a></td>
-  </tr>
-  <tr>
-      <td>founder</td>
-      <td><a href="https://twitter.com/youyou5202" target="_blank">Wang Dayou</a> -&gt; <a href="dayou.html">Biographies of Characters</a></td>
-  </tr>
-  <tr>
-    <td>Chinese KOL cooperation</td>
-    <td>@ice3738&#xFF08;Telegram ID&#xFF09;</td>
-  </tr>
-  <tr>
-    <td>English KOL cooperation</td>
-    <td>@GranolaPeanut_&#xFF08;Discord ID&#xFF09;</td>
-  </tr>
-</table>
+                                <style>
+    #container {
+        height: 1200px;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .highcharts-tooltip span {
+        white-space: normal !important;
+    }
+</style>
+
+<div id="container"></div>
+
+<script>
+    const eventsData = [
+    {
+        x: 1717084800000,
+        name: 'Children\'s Day Creative Contest',
+        custom: {
+            date: '2024-5-31',
+            link: 'https://discord.com/channels/1233083027282727062/1233087766477148284/1246003009918337046',
+            details: 'Participate and you will have a chance! Once your work is retweeted by Dayou or the official Twitter account, you will have the opportunity to receive an exclusive Build box reward!'
+        }
+    },
+    {
+        x: 1716998400000,
+        name: 'HODL Listed On Polonie Exchange',
+        custom: {
+            date: '2024-5-30',
+            link: 'https://poloniex.com/trade/HODL_USDT?type=spot'
+        }
+    },
+    {
+        x: 1716955200000,
+        name: 'Stake ZOM NFTs To Earn Points',
+        custom: {
+            date: '2024-5-29',
+            link: 'https://zooofmeme.com/stake'
+        }
+    },
+    {
+        x: 1716926400000,
+        name: '$Promised Burn',
+        custom: {
+            date: '2024-5-29'
+        }
+    },
+    {
+        x: 1716912000000,
+        name: '0xmoon Appointed As The Fourth Divine Position - Jester Emperor - in HODL Narratives.',
+        custom: {
+            date: '2024-5-29'
+        }
+    },
+    {
+        x: 1716840000000,
+        name: '🎂Dayou Birthday🎂',
+        custom: {
+            date: '2024-5-28',
+            link: 'https://www.youtube.com/watch?v=hC4LTeTb0do'
+        }
+    },
+    {
+        x: 1716825600000,
+        name: 'DWF Participation',
+        custom: {
+            date: '2024-5-28'
+        }
+    },
+    {
+        x: 1716480000000,
+        name: 'Dayou Announces Details Of Points',
+        custom: {
+            date: '2024-5-24',
+            link: 'https://discord.com/channels/1233083027282727062/1233087766477148284/1243503551611666463'
+        }
+    },
+    {
+        x: 1715875200000,
+        name: 'Listed On Mexc Exchange',
+        custom: {
+            date: '2024-5-17',
+            link: 'https://www.mexc.com/exchange/HODL_USDT'
+        }
+    },
+    {
+        x: 1715889600000,
+        name: 'Listed On Bitget Exchange',
+        custom: {
+            date: '2024-5-17',
+            link: 'https://www.bitget.com/spot/HODLUSDT'
+        }
+    },
+    {
+        x: 1715529600000,
+        name: 'HODL Stake',
+        custom: {
+            date: '2024-5-13',
+            link: 'https://hodlmeme.io/#/vault-hodl'
+        }
+    },
+    {
+        x: 1715544000000,
+        name: 'HODL Node Plan Announced',
+        custom: {
+            date: '2024-5-13',
+            link: 'https://x.com/youyou5202/status/1789738856163704885'
+        }
+    },
+    {
+        x: 1715457600000,
+        name: '<br/>1.$HODL Price Betting<br/>2.Lucky Drop temporarily close',
+        custom: {
+            date: '2024-5-12',
+            link: 'https://x.com/youyou5202/status/1789429082125455559'
+        }
+    },
+    {
+        x: 1715443200000,
+        name: 'Mother\'s Day',
+        custom: {
+            date: '2024-5-12'
+        }
+    },
+    {
+        x: 1715356800000,
+        name: '<br/>1.Team Discards LP Permission<br/>2.Dayou repurchased FT\'s club key<br/>3.$HODL Burn Tax Reduced To 1%',
+        custom: {
+            date: '2024-5-11',
+            link: 'https://x.com/youyou5202/status/1789233656403509259'
+        }
+    },
+    {
+        x: 1715270400000,
+        name: '<br/>1.50% of the total HODL was deposited into Binance hot wallet<br/>2.Dayou interest-free loan, return the principal in 4 months<br/>3.Crowdfunding returns 10% of the total $HODL',
+        custom: {
+            date: '2024-5-10',
+            link: 'https://x.com/youyou5202/status/1788812664573202500'
+        }
+    },
+    {
+        x: 1715184000000,
+        name: '$Promise LP Lock',
+        custom: {
+            date: '2024-5-9',
+            link: 'https://hodlmeme.io/#/lp'
+        }
+    },
+    {
+        x: 1715097600000,
+        name: 'ZOM NFT Blind Shooting',
+        custom: {
+            date: '2024-5-8',
+            link: 'https://zooofmeme.com/'
+        }
+    },
+    {
+        x: 1715011200000,
+        name: 'Add $Promise LP To Earn Point',
+        custom: {
+            date: '2024-5-7'
+        }
+    },
+    {
+        x: 1714939200000,
+        name: 'Dayou raises funds to "Run the Table”',
+        custom: {
+            date: '2024-5-6',
+            link: 'https://x.com/youyou5202/status/1787327692284768467'
+        }
+    },
+    {
+        x: 1714924800000,
+        name: 'Open OG Box',
+        custom: {
+            date: '2024-5-6',
+            link: 'https://hodlmeme.io/#/open-boxes'
+        }
+    },
+    {
+        x: 1714852800000,
+        name: 'Locky Drop Online',
+        custom: {
+            date: '2024-5-5'
+        }
+    },
+    {
+        x: 1714838400000,
+        name: 'Mint OG Box',
+        custom: {
+            date: '2024-5-5'
+        }
+    },
+    {
+        x: 1714147200000,
+        name: 'New Discrod Opened',
+        custom: {
+            date: '2024-4-27'
+        }
+    },
+    {
+        x: 1714060800000,
+        name: '<br/>1.The “Rat Trading” will be returned to the community in three installments<br/>2.First donation reward program',
+        custom: {
+            date: '2024-4-26',
+            link: 'https://x.com/youyou5202/status/1783640799995113475'
+        }
+    },
+    {
+        x: 1713974400000,
+        name: '<br/>1.Burn “LAW” Get “Promise”<br/>2.Old DC Closed',
+        custom: {
+            date: '2024-4-25',
+            link: 'https://x.com/youyou5202/status/1783253640507269201'
+        }
+    },
+    {
+        x: 1713715200000,
+        name: '$HODL Listed On Dex',
+        custom: {
+            date: '2024-4-22',
+            link: 'https://x.com/youyou5202/status/1782314192437227979',
+            details: '1.Receive Mint LAW Fees<br/>' +
+                '2.Participate in the Mint to get $HODL airdrop<br/>' +
+                '3.$HODL Listed On Dex'
+        }
+    },
+    {
+        x: 1713628800000,
+        name: 'Mint "CODE OF LAW" Ends Early',
+        custom: {
+            date: '2024-4-21',
+            link: 'https://x.com/youyou5202/status/1781948910778695805',
+            details: 'Mint terminated early, and all mint fees were refunded. The remaining "CODE OF LAW" were airdropped to mint participants in proportion.'
+        }
+    },
+    {
+        x: 1713542400000,
+        name: 'Mint "CODE OF LAW"',
+        custom: {
+            date: '2024-4-20',
+            link: 'https://x.com/youyou5202/status/1781685752386261006'
+        }
+    },
+    {
+        x: 1713556800000,
+        name: 'First donation',
+        custom: {
+            date: '2024-4-20',
+            link: 'https://x.com/youyou5202/status/1781597296125493297'
+        }
+    },
+    {
+        x: 1713369600000,
+        name: 'Dayou Announced Shang Yang\'s Reforms',
+        custom: {
+            date: '2024-4-18',
+            link: 'https://x.com/youyou5202/status/1780712961839173812'
+        }
+    },
+    {
+        x: 1712937600000,
+        name: 'HODL Born',
+        custom: {
+            date: '2024-4-13',
+            details: 'Discord Opened'
+        }
+    }
+];
+
+for(let o in eventsData) {
+    console.log(eventsData[o]);
+    if(eventsData[o]["custom"].hasOwnProperty("link")) {
+        console.log(eventsData[o]["custom"])
+        eventsData[o]["dataLabels"] = {
+            backgroundColor: '#e5ffe5'
+        };
+    }
+}
+</script>
+
+<script defer src="/zh/js/event_chart.js"></script>
                                 
                                 </section>
                             
-    </div>
-    <div class="search-results">
-        <div class="has-results">
-            
-            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
-            <ul class="search-results-list"></ul>
-            
-        </div>
-        <div class="no-results">
-            
-            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
-            
-        </div>
-    </div>
-</div>
-
     </div>
     <div class="search-results">
         <div class="has-results">
@@ -743,7 +947,7 @@
 
             
                 
-                <a href="new_comer.html" class="navigation navigation-prev " aria-label="Previous page: Beginner's Quick Guide">
+                <a href="link_tree.html" class="navigation navigation-prev " aria-label="Previous page: LinkTree">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
@@ -759,7 +963,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Project","level":"1.3","depth":1,"next":{"title":"Founder","level":"1.4","depth":1,"path":"dayou.md","ref":"dayou.md","articles":[{"title":"Introduce","level":"1.4.1","depth":2,"path":"dayou.md","ref":"dayou.md","articles":[]},{"title":"Important Twitter","level":"1.4.2","depth":2,"path":"twitter.md","ref":"twitter.md","articles":[]}]},"previous":{"title":"Beginner's Quick Guide","level":"1.2","depth":1,"path":"new_comer.md","ref":"new_comer.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-sharing","-share","-back-to-top-button","-splitter","search-pro","scripts-styles","statistics","language-selected"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"scripts-styles":{"scripts-styles":{"js":[],"css":[]},"js":["js/highcharts.js","js/treemap.js","js/treegraph.js","js/exporting.js","js/accessibility.js"],"css":[]},"statistics":{"bd_url":"https://hm.baidu.com/hm.js","cnzz_url":"https://s95.cnzz.com/z_stat.php","google_url":"https://www.googletagmanager.com/gtag/js","google_id":"G-X8N1QHCT5X"},"search-pro":{},"language-selected":{"grid-columns":3},"highlight":{},"search":{},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"tgwinly@gmail.com","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"HODL DOCS","language":"en","gitbook":"*"},"file":{"path":"intro.md","mtime":"2024-05-29T07:21:06.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-05-30T09:36:11.414Z"},"basePath":".","book":{"language":"en"}});
+            gitbook.page.hasChanged({"page":{"title":"Project Events","level":"1.4","depth":1,"next":{"title":"Founder","level":"1.5","depth":1,"path":"dayou.md","ref":"dayou.md","articles":[]},"previous":{"title":"LinkTree","level":"1.3","depth":1,"path":"link_tree.md","ref":"link_tree.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-sharing","-share","-back-to-top-button","-splitter","search-pro","scripts-styles","statistics","language-selected"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"scripts-styles":{"scripts-styles":{"js":[],"css":[]},"js":["js/highstock.js","js/timeline.js","js/exporting.js","js/accessibility.js","js/event_data.js"],"css":[]},"statistics":{"bd_url":"https://hm.baidu.com/hm.js","cnzz_url":"https://s95.cnzz.com/z_stat.php","google_url":"https://www.googletagmanager.com/gtag/js","google_id":"G-X8N1QHCT5X"},"search-pro":{},"language-selected":{"grid-columns":3},"highlight":{},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"tgwinly@gmail.com","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"HODL DOCS","language":"en","gitbook":"*"},"file":{"path":"event.md","mtime":"2024-06-01T04:18:01.596Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-06-01T04:20:33.985Z"},"basePath":".","book":{"language":"en"}});
         });
     </script>
 </div>
@@ -777,15 +981,11 @@
         
     
         
-        <script src="../gitbook/gitbook-plugin-scripts-styles/9a631c4b31ee35475d389a752d782ad3-highcharts.js"></script>
+        <script src="../gitbook/gitbook-plugin-scripts-styles/6440a0893d87a466457d98387ecd7884-highstock.js"></script>
         
     
         
-        <script src="../gitbook/gitbook-plugin-scripts-styles/8f70e60d2b005feb609dee7e4897da45-treemap.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-scripts-styles/9d7bfbb5b96e78297eff04c8d648c1ab-treegraph.js"></script>
+        <script src="../gitbook/gitbook-plugin-scripts-styles/618c9178aeae5533fc6b0460b13d0762-timeline.js"></script>
         
     
         
@@ -797,19 +997,15 @@
         
     
         
+        <script src="../gitbook/gitbook-plugin-scripts-styles/8859f15a621eaa3ad84c1e29c078d6d3-event_data.js"></script>
+        
+    
+        
         <script src="../gitbook/gitbook-plugin-statistics/statistics.js"></script>
         
     
         
         <script src="../gitbook/gitbook-plugin-language-selected/plugin.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
         
     
         
